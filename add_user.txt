@@ -1,0 +1,11 @@
+Add user
+# adduser <username>
+
+Set password
+# passwd <username>
+
+Add as sudo user (centos)
+# usermod -aG wheel <username>
+
+Require password change on login
+# chage -d 0 <username>
